@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/NombreAsistencia"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".8"
+            android:text="Nombre "
+            android:textColor="#0F0F0F"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/Asistencias"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".8"
+            android:text="Asistencias"
+            android:textColor="#0E0D0D"
+            android:textSize="17sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>
